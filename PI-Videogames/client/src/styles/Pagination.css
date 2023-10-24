@@ -1,0 +1,22 @@
+.paginator {
+    list-style: none;
+}
+
+
+.paginator li {
+    margin-right: 10px;
+}
+
+.paginator li button {
+    border: none;
+    outline: none;
+    color: white;
+    font-family: "Press Start 2P";
+    font-size: 18px;
+    background-color: transparent;
+    padding: 16px;
+}
+
+.paginator li .active {
+    color: #F8CC2F;
+}

@@ -1,0 +1,23 @@
+.container{
+    display: flex;
+    flex-direction:column;
+    
+}
+.container-landing{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    align-content: center;
+    margin-top: 20%;
+}
+
+
+
+.container-landing .btn{
+    background-color: transparent;
+    border: 6px solid #F8CC2F;
+    font-family: "Press Start 2P";
+    color: #F8CC2F;
+    padding: 32px 64px;
+    font-size: x-large;
+}

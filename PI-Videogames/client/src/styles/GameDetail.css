@@ -1,0 +1,61 @@
+.detail-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin:0 auto ;
+    margin-top: 54px;
+    color: white;
+   
+}
+
+
+.detail-container .img-container {
+    max-width: 30%;
+    border: 6px solid #F8CC2F;
+}
+.titles{
+    color: #F8CC2F;
+}
+.detail-container .img-container img {
+    max-width: 100%;
+    height: 100%;
+}
+.data-container{
+    max-width: 70%;
+    margin-left: 30px;
+}
+
+
+.primero{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between  ;
+}
+.primero .title{
+    font-size:xx-large;
+
+}
+.btn{
+    background-color: transparent;
+    color: white;
+    margin-top: 10px;
+    padding: 16px 32px;
+    border: 4px solid #F8CC2F;
+}
+
+
+/* .detail{
+    border: 5px solid #fff;
+}
+
+.genres{
+    border: 5px solid #fff;
+}
+.platforms{
+    border: 5px solid #fff;
+}
+.rating{
+    border: 5px solid #fff;
+}
+.title{border: 5px solid #fff;} */

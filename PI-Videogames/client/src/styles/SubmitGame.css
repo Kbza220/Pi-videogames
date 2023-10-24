@@ -1,0 +1,87 @@
+h2 {
+    color: white;
+    padding: 35px 0px;    
+}
+.game-form {
+    width: 100%;
+    color: white;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+form .form-content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+form .form-inputs {
+    display: flex;
+    flex-direction: column;
+}
+form .form-inputs .form-input  {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-bottom: 20px;
+}
+
+form .form-inputs .form-input label {
+    background-color: #F8CC2F;
+    color: #0F0238;
+    padding: 16px 16px;
+}
+
+form .form-inputs .form-input input {
+    border:6px solid #F8CC2F;
+    color: #F8CC2F;
+    background-color: transparent;
+    padding: 16px;
+    width: 300px;
+    font-family: "Press Start 2P";
+}
+
+form .form-inputs .form-input textarea {
+    border:6px solid #F8CC2F;
+    color: #F8CC2F;
+    background-color: transparent;
+    padding: 16px;
+    width: 600px;
+    font-family: "Press Start 2P";
+}
+
+
+form .genre-platform-container {
+    padding: 20px;
+    border:6px solid #F8CC2F;
+    display: flex;
+    flex-direction: row;
+}
+
+form .genre-platform-container .genres-title {
+    margin-bottom: 40px;
+}
+
+form .checkbox-group div {
+    margin-bottom: 10px;
+}
+
+form .genre-platform-container .platform-title {
+    margin-bottom: 40px;
+}
+
+form .create-button {
+    margin-top: 20px;
+    align-self: flex-end;
+    padding: 16px 32px;
+    border:6px solid #F8CC2F;
+    background-color: transparent;
+    color: #F8CC2F;
+    font-size: 32px;
+    font-family: "Press Start 2P";
+}

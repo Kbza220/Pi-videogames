@@ -1,0 +1,83 @@
+
+.container .pagination-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    margin-left: 20.5%;
+}
+
+
+.container .pagination-bar .paginator {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+   
+
+}
+
+.container .content-container{
+    display: flex;
+    flex-direction:row;
+    
+}
+.container .content-container .game-cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 3%;
+    width: 80%;
+}
+
+.container-loader{
+    display: flex;
+   flex-direction: row;
+  align-items: center;
+    width: max-content;
+    margin-left: 30%;
+
+}
+
+.loader{
+    display: inline-block;
+    text-align: center;
+    line-height: 86px;
+    text-align: center;
+    position: relative;
+    padding: 0 48px;
+    font-size: 48px;
+    font-family: "Press Start P2";
+    color: #fff;
+    }
+    .loader:before, .loader:after {
+      content: "";
+      display: block;
+      width: 15px;
+      height: 15px;
+      background: currentColor;
+      position: absolute;
+      animation: load .7s infinite alternate ease-in-out;
+      top: 0;
+    }
+    .loader:after {
+      top: auto;
+      bottom: 0;
+    }
+  @keyframes load {
+    0% {
+      left: 0;
+      height: 43px;
+      width: 15px;
+      transform: translateX(0)
+    }
+    50% {
+      height: 10px;
+      width: 40px
+    }
+    100% {
+      left: 100%;
+      height: 43px;
+      width: 15px;
+      transform: translateX(-100%)
+    }
+  }

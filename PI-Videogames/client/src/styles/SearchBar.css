@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header .searchBar {
+    display: flex;
+    flex-direction: row;
+}
+
+.header .searchBar input {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    border: 1px solid white;
+    padding: 16px 32px;
+    color: #F8CC2F;
+    outline: none;
+    font-size: 1.2rem;
+    border: 6px solid #F8CC2F;
+    font-family: "Press Start 2P";
+}
+
+.header .searchBar button {
+    display: flex;
+    flex-direction: row;
+    background-color: #F8CC2F;
+    padding: 16px 16px;
+    color: #F8CC2F;
+    outline: none;
+    font-size: 1.2rem;
+    border: 6px solid #F8CC2F;
+    border-left:0;
+    font-family: "Press Start 2P";
+}
+
+.header .searchBar button img {
+    height: 16px;
+    width: 16px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+
+.btnNav{
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    padding: 16px 16px;
+    color: #F8CC2F;
+    outline: none;
+    font-size: 1.2rem;
+    border: 6px solid #F8CC2F;
+    margin-left: 10px;
+    font-family: "Press Start 2P";
+}
+

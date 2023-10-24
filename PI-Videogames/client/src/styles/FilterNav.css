@@ -1,0 +1,45 @@
+.filter-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 20%;
+    height: 100%;
+    
+    border: 6px solid #F8CC2F;
+    margin: 0 auto;
+    color:aliceblue;
+    padding: 20px 10px;
+}
+
+
+.filter-container .rating-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+}
+
+.filter-container .genre-group{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.filter-container .origin-group{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.filter-container .alphabetic{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.filter-container label{
+    margin-bottom: 10px;
+}
+
+.filter-container input {
+    margin-right: 10px;
+}

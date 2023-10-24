@@ -1,0 +1,66 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 404px;
+    height: 510px;
+    border: 6px solid #F8CC2F;
+    margin-bottom: 24px;
+}
+.image{
+    max-width: 100%;
+    height: 50%;
+    
+}
+.image img{
+    max-width: 100%;
+    height: 100%;
+    
+    align-items: center;
+}
+.card .title-game{
+text-align: center;
+width: 100%;
+height: 15%;
+background-color:  #F8CC2F;
+justify-content: space-between;
+font-size:small;
+color: #0F0238;
+}
+.card .data{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 20%;
+    color: #FFF;
+    
+}
+.card .btn-contain{
+    width: 100%;
+    height: 15%;
+    
+}
+.card .btn-contain .btn-info{
+    width: 100%;
+    height: 100%;   
+    background: none;
+    color: #FFF;
+    font-family: "Press Start 2P";
+    border:none;
+    border-top: 6px solid #F8CC2F;
+}
+
+.card .btn-contain .btn-inf:hover{
+    cursor:pointer;
+}
+
+.card .infocontgenres{
+    display: flex;
+    flex-direction: column;
+    margin-left: 6px;
+    max-width: 50%;
+
+}
+.genretitle{
+    color:#F8CC2F;
+
+}
